@@ -1,0 +1,5 @@
+C:\Users\Pravir_Karna\source\repos\AssignmentEpam\AssignmentEpam\obj\Debug\netcoreapp3.1\AssignmentEpam.csproj.AssemblyReference.cache
+C:\Users\Pravir_Karna\source\repos\AssignmentEpam\AssignmentEpam\obj\Debug\netcoreapp3.1\AssignmentEpam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pravir_Karna\source\repos\AssignmentEpam\AssignmentEpam\obj\Debug\netcoreapp3.1\AssignmentEpam.AssemblyInfoInputs.cache
+C:\Users\Pravir_Karna\source\repos\AssignmentEpam\AssignmentEpam\obj\Debug\netcoreapp3.1\AssignmentEpam.AssemblyInfo.cs
+C:\Users\Pravir_Karna\source\repos\AssignmentEpam\AssignmentEpam\obj\Debug\netcoreapp3.1\AssignmentEpam.csproj.CoreCompileInputs.cache
