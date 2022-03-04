@@ -32,8 +32,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Automation.UI.Accelerators\Automation.UI.Accelerators.csproj" />
-    <ProjectReference Include="..\EPAM.DotNetCore\Automation.UI.Reporting\Automation.UI.Reporting.csproj" />
+    <ProjectReference Include="..\EPAM.DotNetCore\Automation.API.Accelerators\Automation.API.Accelerators.csproj" />
+    <ProjectReference Include="..\EPAM.DotNetCore\Automation.UI.Reporting\Automation.Reporting.csproj" />
   </ItemGroup>
 
 </Project>

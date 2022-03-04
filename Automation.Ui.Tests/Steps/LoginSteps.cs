@@ -1,8 +1,7 @@
 ﻿using Automation.UI.Accelerator;
 using Automation.UI.Accelerators.BaseClasses;
-using Automation.UI.Tests.Pages;
+using Automation.UI.Accelerators.Pages;
 using NUnit.Framework;
-
 using System;
 using System.Collections.Generic;
 using System.Text;

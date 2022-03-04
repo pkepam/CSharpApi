@@ -1,6 +1,6 @@
 ﻿
 
-using Automation.Ui.Reporting.ReportingClasses;
+using Automation.UI.Reporting.ReportingClasses;
 using Automation.UI.Accelerator;
 using Automation.UI.Accelerators.BaseClasses;
 using AventStack.ExtentReports.Gherkin.Model;
@@ -18,14 +18,14 @@ namespace Automation.Ui.Accelerators.Hooks
     [Binding]
     public sealed class Hooks : BasePage
     {
-        private static readonly ILogger logger = LogManager.GetCurrentClassLogger(); 
+        private static readonly ILogger logger = LogManager.GetCurrentClassLogger();
         public static readonly object synchroniser = new object();
         public static readonly string TestId = DateTime.Now.TimeOfDay.TotalSeconds.ToString();
         private static DriverHelper _driverHelper;
-    
+
         public Hooks(DriverHelper driverHelper) => _driverHelper = driverHelper;
 
-      
+
 
         [BeforeTestRun]
         public static void BeforeTestRun()
@@ -39,11 +39,11 @@ namespace Automation.Ui.Accelerators.Hooks
         public static void BeforeFeature(FeatureContext FeatureContext)
         {
             logger.Debug("Start Feature");
-            ExtentReport.startFeature(FeatureContext.FeatureInfo.Title);            
+            ExtentReport.startFeature(FeatureContext.FeatureInfo.Title);
         }
 
-        [BeforeScenario]       
-        public  void BeforeScenario(ScenarioContext ScenarioContext,FeatureContext FeatureContext)
+        [BeforeScenario]
+        public void BeforeScenario(ScenarioContext ScenarioContext, FeatureContext FeatureContext)
         {
             lock (synchroniser)
             {
@@ -56,19 +56,19 @@ namespace Automation.Ui.Accelerators.Hooks
                 //option.AddArguments("--headless");
                 new DriverManager().SetUpDriver(new ChromeConfig());
                 Console.WriteLine("Setup");
-                _driverHelper.Driver = new ChromeDriver(option);                
+                _driverHelper.Driver = new ChromeDriver(option);
 
             }
         }
 
-        [BeforeStep]      
+        [BeforeStep]
         public void BeforeStep(ScenarioContext ScenarioContext)
         {
             lock (synchroniser)
             {
                 logger.Debug("Step: {0}", ScenarioContext.StepContext.StepInfo.Text);
             }
-        }  
+        }
 
 
         [AfterStep]
@@ -144,7 +144,7 @@ namespace Automation.Ui.Accelerators.Hooks
 
                     var sc = new ScreenCapture();
                     sc.SaveBrowserScreen(_driverHelper.Driver, sb.ToString());
-                    
+
                 }
                 else
                 {
@@ -166,7 +166,7 @@ namespace Automation.Ui.Accelerators.Hooks
 
         [AfterTestRun]
         public static void AfterTestRun()
-        {            
+        {
             ExtentReport.flushReport();
             BasePage.tearDown(_driverHelper.Driver);
         }

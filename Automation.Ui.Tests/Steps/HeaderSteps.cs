@@ -1,6 +1,6 @@
 ﻿
 using Automation.UI.Accelerator;
-using Automation.UI.Tests.Pages;
+using Automation.UI.Accelerators.Pages;
 using NUnit.Framework;
 
 using System;

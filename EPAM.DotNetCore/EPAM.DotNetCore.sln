@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automation.API.Tests", "..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automation.UI.Accelerators", "..\Automation.UI.Accelerators\Automation.UI.Accelerators.csproj", "{6093D3C8-18FA-4319-96B1-EB230BE13A55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.UI.Reporting", "Automation.UI.Reporting\Automation.UI.Reporting.csproj", "{73C7E1A0-EFD8-4DF0-8BA3-B5829F032C2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automation.Reporting", "Automation.UI.Reporting\Automation.Reporting.csproj", "{73C7E1A0-EFD8-4DF0-8BA3-B5829F032C2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.API.Accelerators", "Automation.API.Accelerators\Automation.API.Accelerators.csproj", "{BB5AC434-F483-4C48-A8BC-331554D64BD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automation.API.Accelerators", "Automation.API.Accelerators\Automation.API.Accelerators.csproj", "{BB5AC434-F483-4C48-A8BC-331554D64BD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -193,7 +193,6 @@ C:\Users\Pravir_Karna\source\repos\Automation.UI.Accelerators\bin\Debug\netcorea
 C:\Users\Pravir_Karna\source\repos\Automation.UI.Accelerators\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\Pravir_Karna\source\repos\Automation.UI.Accelerators\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\Pravir_Karna\source\repos\Automation.UI.Accelerators\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
-C:\Users\Pravir_Karna\source\repos\Automation.UI.Accelerators\obj\Debug\netcoreapp3.1\Automation.UI.Accelerators.csproj.AssemblyReference.cache
 C:\Users\Pravir_Karna\source\repos\Automation.UI.Accelerators\obj\Debug\netcoreapp3.1\Automation.UI.Accelerators.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Pravir_Karna\source\repos\Automation.UI.Accelerators\obj\Debug\netcoreapp3.1\Automation.UI.Accelerators.AssemblyInfoInputs.cache
 C:\Users\Pravir_Karna\source\repos\Automation.UI.Accelerators\obj\Debug\netcoreapp3.1\Automation.UI.Accelerators.AssemblyInfo.cs

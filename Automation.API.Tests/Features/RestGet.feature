@@ -6,6 +6,6 @@ Scenario Outline: Verify author of the posts with Id 2
 	Then I should see the '<Author/Title>' name as '<Name>'
 
 	Examples: 
-	| Author/Title | Name        |
-	| author       | Pravir      |
-	| title        | HarryPotter |
+	| Author/Title | Name         |
+	| author       | Pravir       |
+	| title        | HarryPotter  |

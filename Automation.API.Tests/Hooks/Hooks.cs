@@ -1,6 +1,6 @@
-﻿using Automation.Ui.Reporting.ReportingClasses;
-using Automation.UI.Accelerator;
-using Automation.UI.Accelerators.BaseClasses;
+﻿using Automation.UI.Reporting.ReportingClasses;
+using Automation.API.Accelerators;
+using Automation.API.Accelerators.BaseClasses;
 using AventStack.ExtentReports.Gherkin.Model;
 using NLog;
 using OpenQA.Selenium.Chrome;
@@ -19,9 +19,9 @@ namespace Automation.API.Hooks
         private static readonly ILogger logger = LogManager.GetCurrentClassLogger(); 
         public static readonly object synchroniser = new object();
         public static readonly string TestId = DateTime.Now.TimeOfDay.TotalSeconds.ToString();
-        private static DriverHelper _driverHelper;
+        private static BasePage _driverHelper;
     
-        public Hooks(DriverHelper driverHelper) => _driverHelper = driverHelper;
+        public Hooks(BasePage driverHelper) => _driverHelper = driverHelper;
 
       
 
@@ -92,18 +92,6 @@ namespace Automation.API.Hooks
                         .Append(TestId);
 
 
-
-                    var mediaEntity = ScreenCapture.CaptureScreenAndReturnFileName(_driverHelper.Driver, ScenarioContext.ScenarioInfo.Title.Trim());
-
-                    if (stepType == "Given")
-                        ExtentReport.getScenario(ScenarioContext.ScenarioInfo.Title).CreateNode<Given>(ScenarioContext.StepContext.StepInfo.Text).Fail(ScenarioContext.TestError.Message, mediaEntity);
-                    else if (stepType == "When")
-                        ExtentReport.getScenario(ScenarioContext.ScenarioInfo.Title).CreateNode<When>(ScenarioContext.StepContext.StepInfo.Text).Fail(ScenarioContext.TestError.Message, mediaEntity);
-                    else if (stepType == "Then")
-                        ExtentReport.getScenario(ScenarioContext.ScenarioInfo.Title).CreateNode<Then>(ScenarioContext.StepContext.StepInfo.Text).Fail(ScenarioContext.TestError.Message, mediaEntity);
-                    else if (stepType == "And")
-                        ExtentReport.getScenario(ScenarioContext.ScenarioInfo.Title).CreateNode<And>(ScenarioContext.StepContext.StepInfo.Text).Fail(ScenarioContext.TestError.Message, mediaEntity);
-
                 }
 
                 else if (ScenarioContext.ScenarioExecutionStatus.ToString() == "StepDefinitionPending")
@@ -132,9 +120,7 @@ namespace Automation.API.Hooks
                     sb.Append(ScenarioContext.ScenarioInfo.Title)
                         .Append(TestId);
 
-                    var sc = new ScreenCapture();
-                    sc.SaveBrowserScreen(_driverHelper.Driver, sb.ToString());
-                    
+                                   
                 }
                 else
                 {
@@ -158,7 +144,7 @@ namespace Automation.API.Hooks
         public static void AfterTestRun()
         {            
             ExtentReport.flushReport();
-            BasePage.tearDown(_driverHelper.Driver);
+            
         }
     }
 }

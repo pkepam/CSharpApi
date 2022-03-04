@@ -1,11 +1,11 @@
 C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\testhost.dll
 C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
-C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\Automation.UI.Reporting.deps.json
-C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\Automation.UI.Reporting.runtimeconfig.json
-C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\Automation.UI.Reporting.runtimeconfig.dev.json
 C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\Automation.UI.Accelerators.deps.json
 C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\Automation.UI.Accelerators.runtimeconfig.json
 C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\Automation.UI.Accelerators.runtimeconfig.dev.json
+C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\Automation.Reporting.deps.json
+C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\Automation.Reporting.runtimeconfig.json
+C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\Automation.Reporting.runtimeconfig.dev.json
 C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\testhost.exe
 C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
@@ -201,10 +201,10 @@ C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\r
 C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\Automation.Reporting.dll
 C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\Automation.UI.Accelerators.dll
-C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\Automation.UI.Reporting.dll
-C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\Automation.UI.Reporting.pdb
 C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\Automation.UI.Accelerators.pdb
+C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\bin\Debug\netcoreapp3.1\Automation.Reporting.pdb
 C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\obj\Debug\netcoreapp3.1\Automation.Ui.Tests.csproj.AssemblyReference.cache
 C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\obj\Debug\netcoreapp3.1\Automation.Ui.Tests.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Pravir_Karna\source\repos\Automation.Ui.Tests\obj\Debug\netcoreapp3.1\Automation.Ui.Tests.AssemblyInfoInputs.cache

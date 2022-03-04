@@ -52,6 +52,14 @@
               "target": "Package",
               "version": "[3.17.0, )"
             },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.5.4, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[3.0.2, )"

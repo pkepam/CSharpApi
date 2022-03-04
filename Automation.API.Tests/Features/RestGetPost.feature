@@ -8,6 +8,6 @@ Scenario Outline: Verify author of the posts with Id 2
 
 	Examples: 
 	| Author/Title | Name        |
-	| author       | Pravir      |
-	| title        | HarryPotter |
+	| author       | Karna       |
+	
 

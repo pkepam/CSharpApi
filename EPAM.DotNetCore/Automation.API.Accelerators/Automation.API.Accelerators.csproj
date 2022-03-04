@@ -11,6 +11,13 @@
     <PackageReference Include="NUnit" Version="3.13.1" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
     <PackageReference Include="coverlet.collector" Version="3.0.2" />
+    <PackageReference Include="RestSharp" Version="106.5.4" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BaseClasses\" />
+    <Folder Include="UtilityClasses\" />
   </ItemGroup>
 
 </Project>

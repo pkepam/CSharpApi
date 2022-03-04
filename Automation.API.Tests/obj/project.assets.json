@@ -3610,53 +3610,43 @@
           "lib/netstandard2.0/WebDriverManager.dll": {}
         }
       },
-      "Automation.UI.Accelerators/1.0.0": {
+      "Automation.API.Accelerators/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "ExtentReports": "4.1.0",
-          "ExtentReports.Core": "1.0.3",
           "Microsoft.NET.Test.Sdk": "16.9.4",
-          "Microsoft.TestPlatform.TestHost": "17.1.0",
-          "NLog": "4.7.14",
           "NUnit": "3.13.1",
-          "NUnit.ConsoleRunner": "3.11.1",
           "NUnit3TestAdapter": "3.17.0",
           "RestSharp": "106.5.4",
-          "Selenium.Support": "3.141.0",
           "Selenium.WebDriver": "3.141.0",
-          "SpecFlow": "3.4.31",
-          "SpecFlow.Assist.Dynamic": "1.4.2",
-          "SpecFlow.Tools.MsBuild.Generation": "3.4.31",
-          "System.Data.OleDb": "6.0.0",
-          "WebDriverManager": "2.11.0",
-          "coverlet.collector": "3.0.2",
-          "log4net": "2.0.14"
-        },
-        "compile": {
-          "bin/placeholder/Automation.UI.Accelerators.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Automation.UI.Accelerators.dll": {}
-        }
-      },
-      "Automation.UI.Reporting/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Automation.UI.Accelerators": "1.0.0",
-          "ExtentReports": "4.1.0",
-          "ExtentReports.Core": "1.0.3",
-          "Microsoft.NET.Test.Sdk": "16.9.4",
-          "NUnit": "3.13.1",
-          "NUnit3TestAdapter": "3.17.0",
           "coverlet.collector": "3.0.2"
         },
         "compile": {
-          "bin/placeholder/Automation.UI.Reporting.dll": {}
+          "bin/placeholder/Automation.API.Accelerators.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Automation.UI.Reporting.dll": {}
+          "bin/placeholder/Automation.API.Accelerators.dll": {}
+        }
+      },
+      "Automation.Reporting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ExtentReports": "4.1.0",
+          "ExtentReports.Core": "1.0.3",
+          "Microsoft.NET.Test.Sdk": "16.9.4",
+          "NLog": "4.7.14",
+          "NUnit": "3.13.1",
+          "NUnit3TestAdapter": "3.17.0",
+          "Selenium.Support": "3.141.0",
+          "Selenium.WebDriver": "3.141.0",
+          "coverlet.collector": "3.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Automation.Reporting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Automation.Reporting.dll": {}
         }
       }
     }
@@ -11295,21 +11285,21 @@
         "webdrivermanager.nuspec"
       ]
     },
-    "Automation.UI.Accelerators/1.0.0": {
+    "Automation.API.Accelerators/1.0.0": {
       "type": "project",
-      "path": "../Automation.UI.Accelerators/Automation.UI.Accelerators.csproj",
-      "msbuildProject": "../Automation.UI.Accelerators/Automation.UI.Accelerators.csproj"
+      "path": "../EPAM.DotNetCore/Automation.API.Accelerators/Automation.API.Accelerators.csproj",
+      "msbuildProject": "../EPAM.DotNetCore/Automation.API.Accelerators/Automation.API.Accelerators.csproj"
     },
-    "Automation.UI.Reporting/1.0.0": {
+    "Automation.Reporting/1.0.0": {
       "type": "project",
-      "path": "../EPAM.DotNetCore/Automation.UI.Reporting/Automation.UI.Reporting.csproj",
-      "msbuildProject": "../EPAM.DotNetCore/Automation.UI.Reporting/Automation.UI.Reporting.csproj"
+      "path": "../EPAM.DotNetCore/Automation.UI.Reporting/Automation.Reporting.csproj",
+      "msbuildProject": "../EPAM.DotNetCore/Automation.UI.Reporting/Automation.Reporting.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Automation.UI.Accelerators >= 1.0.0",
-      "Automation.UI.Reporting >= 1.0.0",
+      "Automation.API.Accelerators >= 1.0.0",
+      "Automation.Reporting >= 1.0.0",
       "ExtentReports >= 4.1.0",
       "ExtentReports.Core >= 1.0.3",
       "FluentAssertions >= 6.2.0",
@@ -11357,11 +11347,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Pravir_Karna\\source\\repos\\Automation.UI.Accelerators\\Automation.UI.Accelerators.csproj": {
-              "projectPath": "C:\\Users\\Pravir_Karna\\source\\repos\\Automation.UI.Accelerators\\Automation.UI.Accelerators.csproj"
+            "C:\\Users\\Pravir_Karna\\source\\repos\\EPAM.DotNetCore\\Automation.API.Accelerators\\Automation.API.Accelerators.csproj": {
+              "projectPath": "C:\\Users\\Pravir_Karna\\source\\repos\\EPAM.DotNetCore\\Automation.API.Accelerators\\Automation.API.Accelerators.csproj"
             },
-            "C:\\Users\\Pravir_Karna\\source\\repos\\EPAM.DotNetCore\\Automation.UI.Reporting\\Automation.UI.Reporting.csproj": {
-              "projectPath": "C:\\Users\\Pravir_Karna\\source\\repos\\EPAM.DotNetCore\\Automation.UI.Reporting\\Automation.UI.Reporting.csproj"
+            "C:\\Users\\Pravir_Karna\\source\\repos\\EPAM.DotNetCore\\Automation.UI.Reporting\\Automation.Reporting.csproj": {
+              "projectPath": "C:\\Users\\Pravir_Karna\\source\\repos\\EPAM.DotNetCore\\Automation.UI.Reporting\\Automation.Reporting.csproj"
             }
           }
         }

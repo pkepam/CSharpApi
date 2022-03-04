@@ -1,10 +1,10 @@
-﻿using Automation.API.Tests.Pages;
-using Automation.Ui.Accelerators.Constants;
-using Automation.UI.Accelerators.UtilityClasses;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using RestSharp;
 using System.Net;
 using TechTalk.SpecFlow;
+using Automation.API.Accelerators.Constants;
+using Automation.API.Accelerators.Pages;
+using Automation.API.Accelerators.UtilityClasses;
 
 namespace Automation.API.Tests.Steps
 {

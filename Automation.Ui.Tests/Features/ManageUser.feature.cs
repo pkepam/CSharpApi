@@ -105,7 +105,7 @@ namespace Automation.Ui.Tests.Features
         [NUnit.Framework.CategoryAttribute("smoke")]
         [NUnit.Framework.CategoryAttribute("sanity")]
         [NUnit.Framework.TestCaseAttribute("Employee List", "Ramesh", null)]
-        [NUnit.Framework.TestCaseAttribute("Employee Details", "John", null)]
+        [NUnit.Framework.TestCaseAttribute("Employee Details", "John0", null)]
         public virtual void TestToVerifyIfEmployeeExist(string tab, string employeeName, string[] exampleTags)
         {
             string[] @__tags = new string[] {

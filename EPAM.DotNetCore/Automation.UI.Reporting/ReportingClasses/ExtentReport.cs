@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using AventStack.ExtentReports.Gherkin.Model;
 
-namespace Automation.Ui.Reporting.ReportingClasses
+namespace Automation.UI.Reporting.ReportingClasses
 {
     public class ExtentReport
     {

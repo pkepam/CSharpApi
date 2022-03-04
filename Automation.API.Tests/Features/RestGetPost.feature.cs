@@ -75,8 +75,7 @@ namespace Automation.API.Tests.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Verify author of the posts with Id 2")]
-        [NUnit.Framework.TestCaseAttribute("author", "Pravir", null)]
-        [NUnit.Framework.TestCaseAttribute("title", "HarryPotter", null)]
+        [NUnit.Framework.TestCaseAttribute("author", "Karna", null)]
         public virtual void VerifyAuthorOfThePostsWithId2(string authorTitle, string name, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;

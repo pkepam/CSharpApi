@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v3.1": {
       "Automation.Ui.Tests/1.0.0": {
         "dependencies": {
-          "Automation.UI.Reporting": "1.0.0",
+          "Automation.Reporting": "1.0.0",
+          "Automation.UI.Accelerators": "1.0.0",
           "ExtentReports": "4.1.0",
           "ExtentReports.Core": "1.0.3",
           "FluentAssertions": "6.2.0",
@@ -2621,6 +2622,22 @@
           }
         }
       },
+      "Automation.Reporting/1.0.0": {
+        "dependencies": {
+          "ExtentReports": "4.1.0",
+          "ExtentReports.Core": "1.0.3",
+          "Microsoft.NET.Test.Sdk": "16.9.4",
+          "NLog": "4.7.14",
+          "NUnit": "3.13.2",
+          "NUnit3TestAdapter": "3.17.0",
+          "Selenium.Support": "3.141.0",
+          "Selenium.WebDriver": "3.141.0",
+          "coverlet.collector": "3.0.2"
+        },
+        "runtime": {
+          "Automation.Reporting.dll": {}
+        }
+      },
       "Automation.UI.Accelerators/1.0.0": {
         "dependencies": {
           "ExtentReports": "4.1.0",
@@ -2644,20 +2661,6 @@
         },
         "runtime": {
           "Automation.UI.Accelerators.dll": {}
-        }
-      },
-      "Automation.UI.Reporting/1.0.0": {
-        "dependencies": {
-          "Automation.UI.Accelerators": "1.0.0",
-          "ExtentReports": "4.1.0",
-          "ExtentReports.Core": "1.0.3",
-          "Microsoft.NET.Test.Sdk": "16.9.4",
-          "NUnit": "3.13.2",
-          "NUnit3TestAdapter": "3.17.0",
-          "coverlet.collector": "3.0.2"
-        },
-        "runtime": {
-          "Automation.UI.Reporting.dll": {}
         }
       }
     }
@@ -4229,12 +4232,12 @@
       "path": "webdrivermanager/2.11.0",
       "hashPath": "webdrivermanager.2.11.0.nupkg.sha512"
     },
-    "Automation.UI.Accelerators/1.0.0": {
+    "Automation.Reporting/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Automation.UI.Reporting/1.0.0": {
+    "Automation.UI.Accelerators/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Automation.Ui.Reporting.ReportingClasses
+namespace Automation.UI.Reporting.ReportingClasses
 {
    public sealed class ScreenCapture
     {

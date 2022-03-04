@@ -28,7 +28,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EPAM.DotNetCore\Automation.UI.Reporting\Automation.UI.Reporting.csproj" />
+    <ProjectReference Include="..\Automation.UI.Accelerators\Automation.UI.Accelerators.csproj" />
+    <ProjectReference Include="..\EPAM.DotNetCore\Automation.UI.Reporting\Automation.Reporting.csproj" />
   </ItemGroup>
 
 </Project>
